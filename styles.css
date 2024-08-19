@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: normal;
+}
+@font-face{
+    src: url(fonts/normal.woff2);
+    font-family: normal;
+}
+@font-face{
+    src: url(fonts/italicc.woff2);
+    font-family: italic;
+}
+.italy{
+    font-family: italic;
+}
+.grid{
+    display: grid;
+}
+.flex{
+    display: flex;
+}
+.gap{
+    gap: 20px;
+}
+.settings{
+    justify-content: space-between;
+    align-items: center;
+}
+.gray{
+    background-color: #babab6;
+}
+.blue{
+    background-color: #33ccff;
+}
+.dark_blue{
+    background-color: #3b5998;
+}
+.dark_gray{
+    background-color: #444444;
+}
+.btm_nav_btm{
+    padding: 30px 100px;
+    background-color: #e0e0e0;
+}
+.btm_nav_btm h1{
+    font-size: 50px;
+}
+.btm_nav_btm ul{
+    gap: 10px;
+}
+.btm_nav_btm ul li{
+    list-style: none;
+    cursor: pointer;
+}
+.asdf{
+    color: #509fb9;
+}
+.nav{
+    background-color: #f8f8f8;
+    padding: 0 100px;
+}
+.white_t{
+    color: white;
+}
+.align{
+    align-items: center;
+}
+.top_nav_right img{
+    height: 100px;
+    width: 400px;
+}
+.top_nav_left{
+    gap: 3px;
+}
+.top_nav_left div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.bottom_nav{
+    padding: 15px 10px;
+}
+.bottom_nav_right ul li{
+    list-style: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+}
+.bottom_nav_right ul a{
+    text-decoration: none;
+}
+.blue_t{
+    color: #509fb9;
+}
+.btbt{
+    gap: 10px;
+}
+.nav_end{
+    height: 5px;
+    background-color: #509fb9;
+}
+.hero{
+    height: 500px;
+    background-image: url(images/heroo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gtc2{
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 0;
+}
+.clouds{
+    padding: 0 100px;
+    background-image: url(images/clouds.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.gtc2_1{
+    flex-direction: column;
+    gap: 20px;
+}
+.gtc2_1 h1{
+    font-size: 50px;
+    font-weight: 510;
+}
+.gtc2_1 span{
+    color: #509fb9;
+}
+.gtc2_1 p{
+    color: #444444;
+    font-weight: 600;
+    font-size: 20px;
+}
+.button button{
+    padding: 15px 30px;
+    color: white;
+    background-color: #509fb9;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.gtc2_2{
+    flex-direction: column;
+    gap: 30px;
+}
+.gtc2_2_item1{
+    gap: 20px;
+}
+.gtc2_2_item1_img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #509fb9;
+    justify-content: center;
+    align-items: center;
+}
+.gtc2_2_item1_text h1{
+    font-size: 50px;
+    font-weight: 510;
+}
+.gtc2_2_item1_text span{
+    font-size: 20px;
+}
+.gtc2_2_item1_text p{
+    color: #6d6d6d;
+}
+.gtc3{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.gtc3_item{
+    background-color: rgb(121,182,202);
+    padding: 10px 80px 20px 10px ;
+}
+.gtc3_itemh1 h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 530;
+    padding-bottom: 20px;
+}
+.gtc3_item_text{
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+.gtc3_item_text p{
+    font-size: 15px;
+}
+.grid3{
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px 100px;
+    gap: 20px;
+}
+.grid3_item{
+    flex-direction: column;
+    gap: 20px;
+}
+.grid3_item h1{
+    font-weight: 530;
+    font-size: 25px;
+}
+.grid3_item span{
+    color: #509fb9;
+    font-size: 17px;
+}
+.grid3_item p{
+    font-size: 17px;
+    color: #6d6d6d;
+}
+.hhh{
+    font-size:25px !important;
+}
+.mid{
+    padding-top: 50px;
+}
+.eee{
+    font-size: 20px;
+}
+.grid3_img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.grid3_useruser p{
+    font-weight: 510 !important;
+    color: black;
+    font-size: 23px;
+}
+.grid3_useruser span{
+    color: black !important;
+    font-weight: 400;
+    font-size: 15px;
+}
+.five000{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.five000 p{
+    font-size: 40px;
+    font-weight: 500;
+    background: linear-gradient(#000000, #f6eeee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.qq{
+    color: #509fb9 !important;
+    font-size: 35px;
+    font-weight: 500;
+}
+.five000 span{
+    color: #444444;
+    font-size: 18px;
+}
+.man{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid6{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.grid6_img{
+    padding: 10px;
+    border:  .5px solid #eeeeeec7;
+}
+
+
+/* services */
+.grid2{
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 30px 100px;
+}
+.grid2_item1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.grid2_item1 p{
+    font-size: 20px;
+    color: #6d6d6d;
+}
+.butserve button{
+    padding: 15px 30px;
+    color: white;
+    background-color: #509fb9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.grid2_item1 span{
+    color: #6d6d6d;
+}
+.grid4{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px 100px;
+}
+.innovation{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #f2f2f2;
+    padding: 30px 20px;
+}
+.innovation p{
+    font-size: 30px;
+    font-weight: 520;
+}
+.inno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #6d6d6d;
+}
+.gridd4{
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    background-color: #f2f2f2;
+    padding: 0 100px;
+    gap: 50px;
+}
+.chat{
+    height: 250px;
+    width: 250px;
+    background-image: url(images/hire.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.employment{
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+.employment h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+.employment p{
+    color: #6d6d6d;
+}
+.employment span{
+    color: #509fb9;
+}
+.dg button{
+    padding: 10px 30px;
+    color: white;
+    background-color: #509fb9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.kkk li{
+    list-style: none;cursor: pointer;
+
+}
+.kkk{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #509fb9;
+}
+.footer{
+    margin-top: 50px;
+    height: 300px;
+    background-color: #000000;
+}
